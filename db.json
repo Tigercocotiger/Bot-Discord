@@ -1,0 +1,7 @@
+{
+    "USER": "root",
+    "MDP": "",
+    "PORT": "3306",
+    "HOST": "localhost",
+    "DATABASE": "bot_discord"
+}
