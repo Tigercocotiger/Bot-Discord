@@ -13,8 +13,8 @@ const Personnages5 = ["diluc", "jean", "keqing", "klee", "mona", "qiqi", "Venti"
 client.on('ready', () => {
     console.log('I am ready!');
     client.user.setActivity('.help', { type: 'WATCHING' })
-    channel = client.channels.cache.get('789513452821544981');
-    channel.send("<@&789081094112542730> Wesh les frères je suis on ! ");
+    channel = client.channels.cache.get('789919232221380668');
+    channel.send("<@&774270261234761738> Wesh les frères je suis on ! ");
 });
 
 const db = mysql.createConnection({
