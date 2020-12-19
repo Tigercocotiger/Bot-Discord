@@ -189,9 +189,6 @@ client.on("message", function(message) {
         case 'claim':
             let sql;
             db.query(`SELECT * FROM utilisateur WHERE Discord_id ='${auteurid}'`, (errror, rows) => {
-
-
-
                 if (errror) {
                     console.log(errror)
                 } else {
