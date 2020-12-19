@@ -214,7 +214,7 @@ client.on("message", function(message) {
                             console.log(écrire);
                         } else {
                             usedCommands.add(message.author.id);
-                            var gagné = parseInt(Math.floor(Math.random() * (100 - 50 + 1) + 50) * rows[0].Multiplicateur, 10);
+                            var gagné = parseInt(Math.floor(Math.random() * (500 - 50 + 1) + 50) * rows[0].Multiplicateur, 10);
                             coins = coins + gagné;
                             message.channel.send(`Bravo ! \nTu as gagné ${gagné} 💎`);
                             message.channel.send(`Ton nombre de 💎 est maintenant de : ${coins}`);
